@@ -1,0 +1,67 @@
+html {
+    overflow-y: scroll;
+}
+body {
+    text-rendering: optimizeLegibility;
+    margin: 10px auto 200px;
+    width: 700px;
+    font-family: serif;
+    font-size: 18px;
+    line-height: 24px;
+    background: #fcfcfc;
+    color: black;
+}
+header {
+    color: #777;
+    text-transform: lowercase;
+    font-size: 20px;
+    line-height: 30px;
+}
+header > nav {
+    float: right;
+    font-size: 18px;
+    line-height: 30px;
+}
+footer {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 30px;
+}
+footer nav {
+    margin: 0 auto;
+    text-align: center;
+}
+main {
+    margin: 36px 0px;
+}
+p {
+    margin: 0 0 24px;
+}
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Individual Pages -------------------------------------------------------- */
+#page-home {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page-home p {
+    font-size: 24px;
+    text-align: center;
+}
+#page-home img {
+    max-width: 60%;
+    max-height: 60%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
