@@ -65,3 +65,11 @@ a:hover {
     border-radius: 10px;
     margin-bottom: 24px;
 }
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+* {
+    scroll-behavior: smooth;
+}
