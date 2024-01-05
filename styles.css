@@ -10,6 +10,7 @@ html {
 
 * {
     font-family: serif;
+    background-color: #FCFFE9;
 }
 
 body {
@@ -31,6 +32,7 @@ iframe {
 }
 
 header {
+    margin-top: 10px;
     font-size: 20px;
 }
 
