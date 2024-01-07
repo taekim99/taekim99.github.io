@@ -41,6 +41,23 @@ header > nav {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+
+    header > nav {
+        float: none; /* Remove the float for better mobile layout */
+        text-align: center; /* Center the navigation links */
+        margin-top: 10px; /* Add margin for better spacing */
+    }
+
+    header > nav a {
+        display: block; /* Make the navigation links full width for better touch interaction */
+        margin-bottom: 5px; /* Add margin between the navigation links */
+    }
+}
+
 footer {
     font-style: italic;
 }
