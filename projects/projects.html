@@ -1,74 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects / Tae Kim</title>
-    <link href="../styles.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <header>
-      <a href="../index.html">Tae Kim</a>
-      <nav>
-        <a href="projects.html">Projects</a>
-        - <a href="../coursework/coursework.html">Coursework</a> -
-        <a href="../resume/resume.html">Resume</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects / Tae Kim</title>
+  <link href="../styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <a href="../index.html">Tae Kim</a>
+    <nav>
+      <a href="projects.html">Projects</a>
+      - <a href="../coursework/coursework.html">Coursework</a> -
+      <a href="../resume/resume.html">Resume</a>
+    </nav>
+  </header>
+  <hr />
+  <main>
+    <h1>Projects</h1>
+    <p>The following is a list of projects I have created.</p>
+    <nav>
+      <ol class="table-of-contents">
+        <li>
+          <a href="#CoreCRM">CoreCRM</a>
+        </li>
+        <li>
+          <a href="#Sortify">Sortify</a>
+        </li>
+        <li>
+          <a href="#TextHub">TextHub</a>
+        </li>
+      </ol>
+    </nav>
     <hr />
-    <main>
-      <h1>Projects</h1>
-      <p>The following is a list of projects I have created.</p>
-      <nav>
-        <ol class="table-of-contents">
-          <li>
-            <a href="#Sortify">Sortify</a>
+    <section id="CoreCRM">
+      <h2>CoreCRM</h2>
+      <br />
+      <p>
+        CoreCRM is a powerful Customer Relationship Management (CRM) system built with Django. It helps businesses
+        manage their customer data, streamline communication, and improve overall efficiency. This open-source project
+        provides a user-friendly interface for recording and managing customer information.
+      </p>
+      <br />
+      <div>
+        <ul>
+          <li><strong>User Authentication and Registration:</strong> CoreCRM ensures a secure environment by
+            implementing robust user authentication and registration processes.</li>
+          <br />
+          <li><strong>Customer Record Management:</strong> Seamlessly add, update, and delete customer records,
+            providing a dynamic platform for maintaining accurate and up-to-date information.</li>
+          <br />
+          <li><strong>Responsive and Intuitive Interface:</strong> With a focus on user experience, using Bootstrap,
+            CoreCRM boasts a
+            responsive and intuitive interface, making navigation and interaction seamless.</li>
+          <br />
+          <li><strong>Customizable Forms:</strong> Tailor CoreCRM to your specific needs with customizable forms,
+            allowing you to capture customer details in a way that aligns perfectly with your business requirements.
           </li>
-          <li>
-            <a href="#TextHub">TextHub</a>
-          </li>
-        </ol>
-      </nav>
-      <hr />
-      <section id="Sortify">
-        <h2>Sortify</h2>
-        <p>
-          Sortify is designed to automate the organization of files within a
-          specified directory. The main goal is to categorize files into
-          different folders based on their types, such as documents,
-          presentations, music, images, and videos.
-        </p>
-        <p>
-          The script uses predefined lists of file extensions for each category
-          and moves the files accordingly.
-        </p>
-        <p>
-          View the project
-          <a target="_blank" href="https://github.com/taekim99/Sortify">here</a>
-        </p>
-      </section>
-      <hr />
-      <section id="TextHub">
-        <h2>TextHub</h2>
-        <p>
-          A simple text-sharing website built with Python and Flask, featuring
-          user authentication, database storage, and more.
-        </p>
-        <p>
-          View the project
-          <a target="_blank" href="https://github.com/taekim99/TextHub">here</a>
-        </p>
-      </section>
-    </main>
+          <br />
+          <li><strong>Secure Authentication with Django:</strong> Leveraging the built-in security features of Django,
+            CoreCRM ensures that user authentication remains airtight and resilient against potential threats.</li>
+          <br />
+          <li><strong>Data Base Management:</strong> CoreCRM harnesses the robust capabilities of MySQL for efficient
+            and secure database management, enhancing data storage, retrieval, and overall system performance.</li>
+        </ul>
+      </div>
+      <br />
+      <div>
+        <a target="_blank" href="https://github.com/taekim99/CoreCRM">View the project</a>
+      </div>
+    </section>
     <hr />
-    <footer>
-      <nav>
-        <a target="_blank" href="https://github.com/taekim99">GitHub</a>
-        ・
-        <a target="_blank" href="https://linkedin.com/in/taekim99">LinkedIn</a>
-        ・ <a href="mailto:taehyukkim99@gmail.com">Email</a>
-      </nav>
-    </footer>
-  </body>
+    <section id="Sortify">
+      <h2>Sortify</h2>
+      <br />
+      <p>
+        The Sortify is a Python script designed to automate the organization of files within a specified
+        directory. The main goal is to categorize files into different folders based on their types, providing a
+        systematic approach to managing and accessing your files. Whether you have documents, presentations, music,
+        images, videos, or other file types, the File Organizer ensures a structured and tidy file system.
+      </p>
+      <br />
+      <div>
+        <ul>
+          <li><strong>Automatic Categorization:</strong> The script automatically categorizes files based on their
+            extensions into predefined folders, such as documents, presentations, music, images, and videos.</li>
+          <br />
+          <li><strong>Customizable File Types:</strong> Customize the script to recognize and organize specific file
+            types according to your needs. Easily extend the list of supported file extensions.</li>
+          <br />
+          <li><strong>Directory Handling:</strong> The script handles not only individual files but also entire
+            directories. If it encounters a directory, it organizes the directory itself into a specified "unknown"
+            folder or another appropriate category.</li>
+          <br />
+          <li><strong>Avoids Duplicates:</strong> The script checks for existing files in the destination folders to
+            avoid duplicates. If a file already exists, it skips the move operation and notifies you.</li>
+        </ul>
+      </div>
+      <br />
+      <p><a target="_blank" href="https://github.com/taekim99/Sortify">View the project</a>
+      </p>
+      </div>
+    </section>
+    <hr />
+    <section id="TextHub">
+      <h2>TextHub</h2>
+      <p>
+        A simple text-sharing website built with Python and Flask, featuring
+        user authentication, database storage, and more.
+      </p>
+      <p>
+        <a target="_blank" href="https://github.com/taekim99/TextHub">View the project</a>
+      </p>
+    </section>
+  </main>
+  <hr />
+  <footer>
+    <nav>
+      <a target="_blank" href="https://github.com/taekim99">GitHub</a>
+      ・
+      <a target="_blank" href="https://linkedin.com/in/taekim99">LinkedIn</a>
+      ・ <a href="mailto:taehyukkim99@gmail.com">Email</a>
+    </nav>
+  </footer>
+</body>
+
 </html>
